@@ -1,14 +1,28 @@
 # Threat Modeling Checklist
 
-Quick scratchpad for threat modeling sessions.
+Quick reference for threat modeling sessions.
 
-- [ ] Identify assets and data flows
-- [ ] Determine trust boundaries
-- [ ] Enumerate entry points
-- [ ] Rank threats (STRIDE or similar)
-- [ ] Note mitigations and owners
-- [ ] Follow up on open questions
+## Steps
+1. Define system scope and data flows.
+2. Identify assets and trust boundaries.
+3. Enumerate threats using STRIDE.
+4. Assess risks and prioritize.
 
-Useful references:
-- OWASP Threat Modeling
-- Microsoft Threat Modeling Tool
+## STRIDE
+- Spoofing
+- Tampering
+- Repudiation
+- Information Disclosure
+- Denial of Service
+- Elevation of Privilege
+
+## Questions
+- What can go wrong?
+- How likely is it?
+- What is the impact?
+- What mitigations exist?
+
+## Outputs
+- Updated diagram
+- Risk register
+- Action items
